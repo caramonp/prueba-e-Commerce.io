@@ -1,0 +1,10 @@
+.main-container-feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.main-container-feature > * {
+    flex: 0 1 200px
+}

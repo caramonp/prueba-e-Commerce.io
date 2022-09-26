@@ -1,0 +1,39 @@
+.banner {
+    width: 100%;
+    min-height: 70vh;
+    background-image: url('../../assest/tom-the-photographer-RQh6vkgKk_w-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:50%;
+    background-color: #211412;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-banner {
+    color: #ffff;
+    width: 40%;
+}
+
+.button-banner {
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 5ch;
+    background: linear-gradient(90deg, rgb(208, 200, 213) 0%, rgb(213, 196, 239) 100%);
+    box-shadow: 1px 2px 3px rgba(161, 54, 233, 0.64);
+    cursor: pointer;
+}
+
+.button-banner:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+    .text-banner{
+        width: 60%;
+    }
+
+}

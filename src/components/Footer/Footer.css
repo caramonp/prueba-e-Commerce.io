@@ -1,0 +1,16 @@
+.footer-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid;
+    border-top-color: #9747FF;
+    min-height: 5vh;
+}
+
+.logos-social-media {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}

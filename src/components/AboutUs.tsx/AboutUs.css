@@ -1,0 +1,41 @@
+.about-us{
+padding: 5%;
+border: solid;
+border-color:  #9747FF;
+}
+
+.title-about {
+    font-size: 50px;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-about {
+height: 500px;
+}
+
+.parr-about {
+    width: 40%;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .about-us-container {
+        flex-direction: column;
+        align-items:initial;
+    }
+    .parr-about {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-about {
+        height: initial;
+        }
+
+}

@@ -1,0 +1,42 @@
+.header-style{
+    border-bottom: solid;
+    border-bottom-color: #9747FF;
+}
+
+.logo-style {
+    min-width: 150px;
+}
+
+.session-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem 0  2rem;
+    align-items: center;
+}
+
+.menu {
+    size: 5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.navigation {
+background: linear-gradient(180deg, rgba(108,97,144,1) 0%, rgba(161,62,233,1) 0%, rgba(2,0,36,1) 94%);
+ position: absolute;
+ inset: 8.5% 0 auto;
+ transition: all .3s ease;
+ z-index: 1;
+}
+
+.navigation > * {
+    display: block;
+    height: 30px;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+}
